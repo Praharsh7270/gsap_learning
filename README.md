@@ -1,12 +1,61 @@
-# React + Vite
+# 🚀 React 19 + Tailwind CSS + Vite Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern frontend boilerplate built with **React 19**, **Tailwind CSS v4**, and **Vite v6**. It includes essential development tools such as **ESLint**, **React Hooks plugin**, **TypeScript types**, and **GSAP** for animations.
 
-Currently, two official plugins are available:
+## 📦 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19**
+- **Tailwind CSS 4**
+- **Vite 6**
+- **GSAP + @gsap/react**
+- **ESLint for linting**
+- **TypeScript type support for React**
+- **Modern development experience**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo.git
+
+# Navigate into the project folder
+cd your-repo
+
+# Install dependencies
+npm install
+
+
+🛠️ Development
+
+# Start the local dev server
+npm run dev
+
+
+🏗️ Build for Production
+npm run build
+
+
+📂 Project Structure
+├── public/             # Static assets
+├── src/
+│   ├── components/     # Reusable components
+│   ├── assets/         # Images, fonts, etc.
+│   ├── App.jsx         # Main App component
+│   └── main.jsx        # App entry point
+├── tailwind.config.js  # Tailwind CSS config
+├── vite.config.js      # Vite config
+└── ...
+
+✨ Features
+⚡ Super-fast Vite bundling
+
+🎨 Utility-first styling with Tailwind CSS
+
+🌀 Animations with GSAP & @gsap/react
+
+🧠 React 19 with concurrent rendering features
+
+🧪 TypeScript type support for React
+
